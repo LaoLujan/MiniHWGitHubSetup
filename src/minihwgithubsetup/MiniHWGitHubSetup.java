@@ -5,6 +5,8 @@
  */
 package minihwgithubsetup;
 
+import java.util.Scanner;
+
 /**
  *
  * @author NHLUJ
@@ -15,7 +17,26 @@ public class MiniHWGitHubSetup {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("What is 2 + 2?");
+        System.out.println("a) 1");
+        System.out.println("b) 2");
+        System.out.println("c) 3");
+        System.out.println("d) 4");
+        
+        System.out.println("What is 3 + 3?");
+        System.out.println("a) 6");
+        System.out.println("b) 7");
+        System.out.println("c) 8");
+        System.out.println("d) 9");
+        
+        System.out.println("What is 4 + 4?");
+        System.out.println("a) 5");
+        System.out.println("b) 6");
+        System.out.println("c) 7");
+        System.out.println("d) 8");
     }
     
 }
