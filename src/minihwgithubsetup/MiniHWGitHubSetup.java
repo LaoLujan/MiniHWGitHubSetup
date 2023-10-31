@@ -59,3 +59,4 @@ public class MiniHWGitHubSetup {
     }
     
 }
+/*NOTE: FOR THIS MINI OROJECT I FOLLOWED THIS EASY TUTORIAL: https://www.youtube.com/watch?v=F8vlEyYTPOE*/
