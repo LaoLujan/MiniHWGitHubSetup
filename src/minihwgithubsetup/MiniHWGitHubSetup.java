@@ -20,6 +20,9 @@ public class MiniHWGitHubSetup {
         
         Scanner scan = new Scanner(System.in);
         
+        String [] responses = {"", "", ""};
+        String [] answers = {"d", "a", "d"};
+        
         System.out.println("What is 2 + 2?");
         System.out.println("a) 1");
         System.out.println("b) 2");
@@ -37,6 +40,22 @@ public class MiniHWGitHubSetup {
         System.out.println("b) 6");
         System.out.println("c) 7");
         System.out.println("d) 8");
+        
+        responses[0] = scan.next();
+        responses[1] = scan.next();
+        responses[2] = scan.next();
+        
+        int score =0;
+        
+        for (int i =0; i < 3; i++){
+            if(responses[i].equalsIgnoreCase(answers[i])){
+            score++;
+        }
+                    
+        }
+        System.out.println("Score: " + score + "/3");
+        
+
     }
     
 }
